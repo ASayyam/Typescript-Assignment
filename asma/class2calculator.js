@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var num = 10;
-var num2 = 2;
+let num = 10;
+let num2 = 2;
 console.log(num + num2);
 console.log(num * num2);
 console.log(num % num2);
-console.log(Math.pow(num, num2));
+console.log(num ** num2);
 console.log(num - num2);
 console.log(num / num2);
 console.log(num++);
@@ -14,10 +14,10 @@ console.log(++num);
 console.log(num - 5);
 console.log(5 + num);
 console.log(+num);
-var number = 4;
-var number2 = 3;
-var result = number == number2;
-var result1 = number <= number2;
+let number = 4;
+let number2 = 3;
+let result = number == number2;
+let result1 = number <= number2;
 console.log(result);
 console.log(result1);
 console.log(number != number2);
@@ -25,10 +25,10 @@ console.log(number2 > 5);
 console.log(number <= 4);
 console.log(number = number2);
 // Logical operators
-var gradingsystem = function (marks) {
+let gradingsystem = (marks) => {
 };
-var creditcal = function (Balanace, Minimum_Balance, Max_Balance) {
-    var addedcredits = Balanace + Minimum_Balance + Max_Balance;
+let creditcal = (Balanace, Minimum_Balance, Max_Balance) => {
+    let addedcredits = Balanace + Minimum_Balance + Max_Balance;
     if (addedcredits > 250 && addedcredits <= 300) {
         return "A+";
     }
